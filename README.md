@@ -51,9 +51,10 @@ task_manager_system
 
 ## Installation
 
-1. Move to the project dir:
+1. Clone the Repo:
 
    ```bash
+   git clone https://github.com/mdawoud27/task_manager_system.git
    cd task_manager_system
    ```
 
@@ -67,24 +68,6 @@ task_manager_system
    python3 -m task_manager.main
    ```
 
-## Data Storage
-
-Tasks are stored in a `tasks.json` file in the following format:
-
-```json
-[
-  {
-    "title": "Example Task",
-    "description": "Task description",
-    "created_at": "2024-01-01T10:00:00",
-    "due_date": "2024-01-02T15:00:00",
-    "priority": "high",
-    "completed": false
-  }
-]
-```
-
-<!--
 ## Future Enhancements
 
 - Task categories/tags
@@ -93,4 +76,14 @@ Tasks are stored in a `tasks.json` file in the following format:
 - Multiple task lists
 - Data export/import
 - Task priorities customization
-- Dark/Light theme support -->
+- Dark/Light theme support
+- Storage the data in database not `json` file
+- Anything else ...
+
+## Contribution
+
+1. Fork the project
+2. Create your feature branch (`git switch -c feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'feat: <short-description>'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
