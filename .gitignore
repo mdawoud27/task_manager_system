@@ -1,0 +1,4 @@
+__pycache__
+./task_manager/__pycache__
+./task_manager/cli/__pycache__
+./task_manager/gui/__pycache__
